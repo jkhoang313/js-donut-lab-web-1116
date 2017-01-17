@@ -11,7 +11,7 @@ var guests = parseInt(prompt("How many guests do you have?"), 10)
 var donuts = parseInt(prompt("How many donuts do you need?"), 10)
 
 if (donuts >= guests) {
-  alert(`You have ${donuts} donuts and #{guests} guests, you have enough donuts for each guest.`)
+  alert(`You have ${donuts} donuts and ${guests} guests, you have enough donuts for each guest.`)
 } else {
   alert(`You have ${donuts} donuts and ${guests} guests, you do not have enough donuts for each guest.`)
 }
